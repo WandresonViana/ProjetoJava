@@ -1,2 +1,2 @@
 # ProjetoJava
- Repositorio para meus projetos em Java
+ Iniciando estudos na liguagem de programação Java.
