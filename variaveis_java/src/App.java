@@ -18,18 +18,20 @@ public class App {
         float media;
 
         //Trabalhando com entrada de dados
-        System.out.println("Digite uma mensagem com caracteres: ");
-        mensagem = entrada.nextLine();
-        System.out.println("Digite um número inteiro: ");
-        inteiro = entrada.nextInt();
-        System.out.println("Digite um número com ponto flutuante: ");
-        pontoFlutuante = entrada.nextFloat();
+        System.out.println("Digite O nome do aluno: ");
+        nomeAluno = entrada.nextLine();
+        System.out.println("Digite a primeira nota: ");
+        nota1 = entrada.nextFloat();
+        System.out.println("Digite a segunda nota do aluno: ");
+        nota2 = entrada.nextFloat();
 
+        //calculando a média
+        media = (nota1 + nota2)/2;
 
         //Mostrando no terminal
-        System.out.println("Esta é uma mensagem em String: " + mensagem);
-        System.out.println("Este é um número inteiro: " + inteiro);
-        System.out.println("Este é um númrero com ponto flutuante: " + pontoFlutuante);
-        System.out.println("Esta é uma condicinal lógica: " + condicao);
+        System.out.printf("Aluno(a): %s. Sua primeira nota é %.2f e sua segunda nota é %.2f. Sua média é igual a: %.2f", nomeAluno, nota1, nota2, media);
+
+
+
     }
 }
