@@ -6,7 +6,7 @@ public class App {
         Scanner entrada = new Scanner(System.in);
 
         //Tipos de variáveis
-        String mensagem = "Mensagem de texto";
+        String mensagem = "Exemplo de mensagem de texto";
         int inteiro = 5;
         float pontoFlutuante = 5.4f;
         boolean condicao = true;
