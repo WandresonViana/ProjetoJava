@@ -18,11 +18,11 @@ public class App {
         float media;
 
         //Trabalhando com entrada de dados
-        System.out.println("Digite O nome do aluno: ");
+        System.out.print("Digite O nome do aluno: ");
         nomeAluno = entrada.nextLine();
-        System.out.println("Digite a primeira nota: ");
+        System.out.print("Digite a primeira nota: ");
         nota1 = entrada.nextFloat();
-        System.out.println("Digite a segunda nota do aluno: ");
+        System.out.print("Digite a segunda nota do aluno: ");
         nota2 = entrada.nextFloat();
 
         //calculando a média
