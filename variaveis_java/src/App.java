@@ -11,6 +11,12 @@ public class App {
         float pontoFlutuante = 5.4f;
         boolean condicao = true;
 
+        //Exemplo de um aluno
+        String nomeAluno;
+        float nota1;
+        float nota2;
+        float media;
+
         //Trabalhando com entrada de dados
         System.out.println("Digite uma mensagem com caracteres: ");
         mensagem = entrada.nextLine();
