@@ -30,7 +30,13 @@ public class Aluno {
         }
 
 
-        System.out.printf("%s teve como primeira nota: %.2f e como segunda nota: %.2f",aluno,nota1,nota2);
+        System.out.printf("%s teve como primeira nota: %.2f e como segunda nota: %.2f. Sua media foi: %.2f.", aluno, nota1, nota2, media);
+        if(statusdoAluno == true){
+            System.out.print(" Aluno aprovado.");
+        }else{
+            System.out.print(" Aluno reprovado.");
+        }
+
 
 
     }
