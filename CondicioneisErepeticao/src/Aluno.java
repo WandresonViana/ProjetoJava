@@ -8,16 +8,24 @@ public class Aluno {
 
         //Usando média do aluno como exemplo
         String aluno;
-        float nota1;
-        float nota2;
-        float media;
+        float nota1 = 0;
+        float nota2 = 0;
+        float media = 0;
         boolean statusdoAluno;
 
 
         System.out.print("Digite o nome do aluno(a): ");
         aluno = entrada.nextLine();
-        System.out.print("Digite a primeira nota do aluno: ");
-        nota1 = entrada.nextFloat();
+        for(int cont = 0; cont < 1; cont ++){
+            System.out.print("Digite a nota do aluno: ");
+            if(cont == 0){
+                nota1 = entrada.nextFloat();
+            }else{
+                nota2 = entrada.nextFloat();
+            }
+            
+        }
+        
         System.out.println("Digite a segunda nota do aluno: ");
         nota2 = entrada.nextFloat();
 
