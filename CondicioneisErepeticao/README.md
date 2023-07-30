@@ -5,4 +5,7 @@ If, For e While
 
 Maior que [>]
 Menor que [<]
+Mair ou igual [>=]
+Menor ou igual [<=]
 Igual a [==]
+Diferente [!=]
