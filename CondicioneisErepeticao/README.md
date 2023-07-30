@@ -2,7 +2,6 @@
 If, For e While
 
 ## Operadores Relacionais
-
 Maior que [>]
 
 Menor que [<]
@@ -17,6 +16,9 @@ Diferente [!=]
 
 ## Operadores lógicos
 E [&&]
+
 OU [||]
+
 XOU [^]
+
 NÃO [!]
