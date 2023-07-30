@@ -13,7 +13,7 @@ public class Aluno {
         float media = 0;
         boolean statusdoAluno;
 
-
+        //Solicitando ao usuário os dados
         System.out.print("Digite o nome do aluno(a): ");
         aluno = entrada.nextLine();
         for(int cont = 0; cont < 1; cont ++){
@@ -22,32 +22,23 @@ public class Aluno {
                 nota1 = entrada.nextFloat();
             }else{
                 nota2 = entrada.nextFloat();
-            }
-            
-        }
-        
+            }  
+        }    
         System.out.println("Digite a segunda nota do aluno: ");
         nota2 = entrada.nextFloat();
 
+        //Calculando a media
         media = (nota1 + nota2)/ 2;
 
+        //Verificando se o aluno está aprovado
         statusdoAluno= (media >= 6)?true:false;
 
-        //if(media >= 6){
-        //    statusdoAluno = true;
-        //}else{
-        //    statusdoAluno = false;
-        //}
-
-
+        //Saida de dados
         System.out.printf("%s teve como primeira nota: %.2f e como segunda nota: %.2f. Sua media foi: %.2f.", aluno, nota1, nota2, media);
         if(statusdoAluno == true){
             System.out.print(" Aluno aprovado.");
         }else{
             System.out.print(" Aluno reprovado.");
         }
-
-
-
     }
 }
