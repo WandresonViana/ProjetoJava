@@ -14,3 +14,9 @@ Menor ou igual [<=]
 Igual a [==]
 
 Diferente [!=]
+
+## Operadores lógicos
+E [&&]
+OU [||]
+XOU [^]
+NÃO [!]
