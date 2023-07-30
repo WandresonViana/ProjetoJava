@@ -31,11 +31,13 @@ public class Aluno {
 
         media = (nota1 + nota2)/ 2;
 
-        if(media >= 6){
-            statusdoAluno = true;
-        }else{
-            statusdoAluno = false;
-        }
+        statusdoAluno= (media >= 6)?true:false;
+
+        //if(media >= 6){
+        //    statusdoAluno = true;
+        //}else{
+        //    statusdoAluno = false;
+        //}
 
 
         System.out.printf("%s teve como primeira nota: %.2f e como segunda nota: %.2f. Sua media foi: %.2f.", aluno, nota1, nota2, media);
