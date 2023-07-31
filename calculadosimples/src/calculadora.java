@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class calculadora {
     public static void main(String[] args) throws Exception {
         Scanner entrada = new Scanner(System.in);
+        Scanner op = new Scanner(System.in);
         float primeiroValor;
         float segundoValor;
         float resultado = 0;
@@ -20,7 +21,8 @@ public class calculadora {
             System.out.println("Digite [-] para subtrair");
             System.out.println("Digite [*] para multiplicar");
             System.out.println("Digite [/] para dividir");
-            operador = entrada.nextLine();
+            System.out.print("Opção: ");
+            operador = op.nextLine();
 
             switch(operador){
                 case "+":

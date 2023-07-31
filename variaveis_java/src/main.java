@@ -4,6 +4,7 @@ public class main {
     public static void main(String[] args) throws Exception {
         //objeto para entrada de dados
         Scanner entrada = new Scanner(System.in);
+        
 
         //Tipos de variáveis
         String mensagem = "Exemplo de mensagem de texto";
