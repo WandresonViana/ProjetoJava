@@ -22,7 +22,7 @@ public class calculadora {
             System.out.println("Digite [*] para multiplicar");
             System.out.println("Digite [/] para dividir");
             System.out.print("Opção: ");
-            operador = op.nextLine();
+            operador = entrada.nextLine();
 
             switch(operador){
                 case "+":
