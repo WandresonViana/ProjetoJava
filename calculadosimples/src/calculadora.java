@@ -13,9 +13,9 @@ public class calculadora {
         do{
             System.out.println("BEM VINDO A CALCULADORA");
             System.out.print("Digite o primeio valor: ");
-            primeiroValor = entrada.nextFloat();
+            primeiroValor = op.nextFloat();
             System.out.print("Digite o segundo valor: ");
-            segundoValor = entrada.nextFloat();
+            segundoValor = op.nextFloat();
             System.out.println(" ");
             System.out.println("Digite [+] Para somar");
             System.out.println("Digite [-] para subtrair");
