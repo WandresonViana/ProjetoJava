@@ -43,6 +43,12 @@ public class calculadora {
             }
             System.out.println(" ");
             System.out.println("O resultado é: " + resultado);
+            
+            if(resultado % 2 == 0){
+                System.out.println("O resultado é par!");
+            }else{
+            System.out.println("O resultado é impar!");
+        }
 
             //saida do programa
 
@@ -55,6 +61,8 @@ public class calculadora {
             }
 
         }while(saida == " ");
+
+        
 
         System.out.println("FIM DO PROGRAMA!");
     }
