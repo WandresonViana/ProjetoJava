@@ -14,7 +14,7 @@ public class AlistamentoMilitar {
         if(idade < 16){
             alistamento = "Não obrigatório";
         }else{
-            if(idade == 16 && idade >=18){
+            if(idade == 16 && idade >=18 || idade > 70){
                 alistamento = "Opcional";
             }else{
                 alistamento = "Obrigatório";
