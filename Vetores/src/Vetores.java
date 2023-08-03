@@ -1,5 +1,6 @@
 public class Vetores {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        int n[] = new int[4];
+        
     }
 }
