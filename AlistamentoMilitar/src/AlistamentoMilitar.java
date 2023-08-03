@@ -16,8 +16,11 @@ public class AlistamentoMilitar {
         }else{
             if(idade == 16 && idade >=18){
                 alistamento = "Opcional";
+            }else{
+                alistamento = "Obrigatório";
             }
         }
+        System.out.printf("O %s tem %s anos e o seu alistamento é %s", nomePessoa, idade, alistamento);
 
      
     }
