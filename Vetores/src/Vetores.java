@@ -6,6 +6,10 @@ public class Vetores {
         n[2] = 8;
         n[3] = 6;
 
+        System.out.println(n.length);
+
+        System.out.println("Iniciando vetor M");
+
         int m[] = {4,8,6,2,9,20,56};
         
         for(int i = 0; i < m.length; ++i){
