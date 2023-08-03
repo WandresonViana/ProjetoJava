@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class AlistamentoMilitar {
     public static void main(String[] args) throws Exception {
         Scanner leitura = new Scanner(System.in);
-        String nomePessoa;
+        String nomePessoa, alistamento;
         int idade;
 
         System.out.print("Digite o Seu nome: ");
@@ -12,7 +12,11 @@ public class AlistamentoMilitar {
         idade = leitura.nextInt();
 
         if(idade < 16){
-            
+            alistamento = "Não obrigatório";
+        }else{
+            if(idade == 16 && idade >=18){
+                alistamento = "Opcional";
+            }
         }
 
      
