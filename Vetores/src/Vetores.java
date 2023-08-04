@@ -7,7 +7,11 @@ public class Vetores {
         n[3] = 6;
 
         System.out.println(n.length);
+        for(int valor: n){
+            System.out.print(valor + " ");
+        }
 
+        System.out.println(" ");
         System.out.println("Iniciando vetor M");
 
         int m[] = {4,8,6,2,9,20,56};
