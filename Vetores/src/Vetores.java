@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Vetores {
     public static void main(String[] args) throws Exception {
         int n[] = new int[4];
@@ -6,6 +8,7 @@ public class Vetores {
         n[2] = 8;
         n[3] = 6;
 
+        Arrays.sort(n);
         System.out.println(n.length);
         for(int valor: n){
             System.out.print(valor + " ");
