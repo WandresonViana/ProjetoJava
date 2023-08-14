@@ -23,6 +23,8 @@ public class Vetores {
             System.out.print(m[i] + " ");
 
         }
+        System.out.println(" ");
+        
         System.out.println("Iniciando vetor de nomes!");
 
         String s[] = {"Maria", "Carla", "Paula"};
