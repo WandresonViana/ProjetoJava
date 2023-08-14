@@ -20,11 +20,15 @@ public class Vetores {
         int m[] = {4,8,6,2,9,20,56};
         
         for(int i = 0; i < m.length; ++i){
-            System.out.println(m[i]);
+            System.out.print(m[i] + " ");
 
         }
+        System.out.println("Iniciando vetor de nomes!");
 
         String s[] = {"Maria", "Carla", "Paula"};
+        for(String contardor: s){
+            System.out.println(contardor + " ");
+        }
         
     }
 }
