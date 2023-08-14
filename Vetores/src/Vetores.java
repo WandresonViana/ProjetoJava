@@ -23,6 +23,8 @@ public class Vetores {
             System.out.println(m[i]);
 
         }
+
+        String s[] = {"Maria", "Carla", "Paula"};
         
     }
 }
