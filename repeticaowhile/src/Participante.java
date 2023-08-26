@@ -1,10 +1,10 @@
-public class Particiante {
+public class Participante {
     private String nome;
     private int idade;
     private float altura;
 
     
-    public Particiante(String nome, int idade, float altura) {
+    public Participante(String nome, int idade, float altura) {
         this.nome = nome;
         this.idade = idade;
         this.altura = altura;
