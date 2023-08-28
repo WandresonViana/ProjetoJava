@@ -15,7 +15,10 @@ public class InicioMain {
         }
 
         for(int cot = 0; cot < novo.length; cot++){
-            System.out.print(novo[cot] + " ");
+            if(novo[cot] >= 99){
+                System.out.println("Abacaxi");
+            }
+            System.out.println(novo[cot] + " ");
         }
         
     }
