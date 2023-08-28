@@ -8,7 +8,8 @@ public class InicioMain {
         int cont = 0;
 
         while(cont < 5){
-            novo[cont] = cont;
+            System.out.println("Digite um valor");
+            novo[cont] = en.nextInt();
             System.out.println(novo[cont]);
             cont++;
         }
