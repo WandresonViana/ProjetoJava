@@ -7,7 +7,8 @@ public class InicioMain {
         
         int cont = 0;
         int maior = 0;
-
+        int menor = 0;
+        
         while(cont < 5){
             System.out.println("Digite um valor");
             novo[cont] = en.nextInt();
@@ -18,16 +19,26 @@ public class InicioMain {
             if(novo[cot] >= 9){
                 System.out.println("Número maior que nove!");
             }
-            System.out.println(novo[cot] + " ");
+            
         }
-
-        for(int op = 0; op < novo.length; op++ ){
+        //Verificando o maior valor
+        for(int op = 0; op < novo.length; op++){
             if(op == 0){
-                maior = novo[0];
+                maior = novo[op];
             }else if(maior < novo[op]){
                 maior = novo[op];
             }
+            System.out.println("Esse é o maior valor " + maior);
         }
-        System.out.println("Esse é o maior valor " + maior);
+
+        for(int conta = 0; conta < novo.length; conta++){
+            if(conta == 0){
+                menor = novo[conta];
+            }else if(menor < novo[conta]){
+                novo[conta] = menor;
+            }
+        
+        System.out.println(novo[conta] + " ");
+        }
     }
 }
