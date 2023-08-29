@@ -6,7 +6,7 @@ public class InicioMain {
         int novo[] = new int[5];
         
         int cont = 0;
-        int maior;
+        int maior = 0;
 
         while(cont < 5){
             System.out.println("Digite um valor");
@@ -22,7 +22,12 @@ public class InicioMain {
         }
 
         for(int op = 0; op < novo.length; op++ ){
-
+            if(op == 0){
+                maior = novo[0];
+            }else if(maior < novo[op]){
+                maior = novo[op];
+            }
         }
+        System.out.println("Esse é o maior valor " + maior);
     }
 }
