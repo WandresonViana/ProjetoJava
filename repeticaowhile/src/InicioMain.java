@@ -15,8 +15,8 @@ public class InicioMain {
         }
 
         for(int cot = 0; cot < novo.length; cot++){
-            if(novo[cot] >= 99){
-                System.out.println("Abacaxi");
+            if(novo[cot] >= 9){
+                System.out.println("Número maior que nove!");
             }
             System.out.println(novo[cot] + " ");
         }
