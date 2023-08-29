@@ -6,7 +6,7 @@ public class InicioMain {
         int novo[] = new int[5];
         
         int cont = 0;
-        
+        int maior;
 
         while(cont < 5){
             System.out.println("Digite um valor");
@@ -20,6 +20,9 @@ public class InicioMain {
             }
             System.out.println(novo[cot] + " ");
         }
-        
+
+        for(int op = 0; op < novo.length; op++ ){
+
+        }
     }
 }
