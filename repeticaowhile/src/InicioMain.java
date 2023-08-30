@@ -32,12 +32,7 @@ public class InicioMain {
         System.out.println("Esse é o maior valor " + maior);
 
         for(int conta = 0; conta < novo.length; conta++){
-            if(conta == 0){
-                menor = novo[conta];
-            }else if(novo[conta] < menor){
-                menor = novo[conta];
-                novo[conta] = menor;
-            }
+            
         }
 
         for(int numeros = 0; numeros < novo.length; numeros++){
