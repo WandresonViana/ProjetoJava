@@ -31,8 +31,14 @@ public class InicioMain {
         }
         System.out.println("Esse é o maior valor " + maior);
 
-        for(int conta = 0; conta < novo.length; conta++){
-            
+        for(int i = 0; i < novo.length; i++){
+            for(int j = 0; j < novo.length; j++){
+                if(novo[i] < novo[j]){
+                    menor = novo[i];
+                    novo[i] = novo[j];
+                    novo[j] = menor;
+                }
+            }
         }
 
         for(int numeros = 0; numeros < novo.length; numeros++){
