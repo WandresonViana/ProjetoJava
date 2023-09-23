@@ -31,6 +31,8 @@ public class Vetores {
         for(String contardor: s){
             System.out.println(contardor + " ");
         }
+
+        System.out.println("Vetor de produtos");
         
     }
 }
