@@ -33,6 +33,8 @@ public class Vetores {
         }
 
         System.out.println("Vetor de produtos");
-        
+
+        Produtos prod[] = new Produtos[5];
+              
     }
 }
