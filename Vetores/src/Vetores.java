@@ -35,6 +35,6 @@ public class Vetores {
         System.out.println("Vetor de produtos");
 
         Produtos prod[] = new Produtos[5];
-              
+        prod[0] = new Produtos("Suco", "Caixa", 5);     
     }
 }
