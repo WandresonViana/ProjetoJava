@@ -3,5 +3,6 @@ public class OlaMundo {
         String mensagem;
         mensagem = "Olá, mundo!";
         System.out.println(mensagem);
+        System.out.println("Olá. mundo");
     }
 }
